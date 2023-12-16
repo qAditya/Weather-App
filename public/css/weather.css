@@ -1,0 +1,171 @@
+body
+{
+    background-image: url("https://nordicapis.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden !important;
+   
+}
+.main_content
+{
+
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.main_content #cityName
+{
+   
+   height: 5rem;
+   border-radius: 20px;
+   background-color: #2a2b2c;
+
+
+}
+#submitBtn
+{
+    height: 3rem !important;
+    margin-top: 1.5rem !important;
+    margin-left: 1rem !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  input, select, text {
+    color: white
+    }
+    
+
+.tempInfo
+{
+   
+    background-color: #2a2b2c;
+    border-radius: 10px;
+    height: 22rem;
+    width: 50rem;
+    margin-left: 20%;
+    
+    
+}
+.tempInfo p
+{
+    font-weight: 800;
+    color: aliceblue;
+    font-size: larger;
+}
+#date
+{
+    margin-left: 15%;
+}
+#city
+{
+    color: yellow;
+    letter-spacing: 4px;
+    margin-left: 30%;
+    font-weight: 900;
+    margin-top: 3%;
+}
+
+.midlayer  #temp
+{
+    margin-top: 3%;
+    font-weight: 700;
+    color: skyblue;
+    margin-bottom: 1rem;
+    
+    
+}
+.midlayer h3
+{
+    margin-top: 3%;
+    font-weight: 900;
+    color: skyblue;
+    letter-spacing: 5px;
+    margin-left: 2%;
+}
+.midlayer #status
+{
+    margin-left: 2%;
+    margin-bottom: 1rem;
+}
+hr
+{
+    color: cornsilk;
+}
+.data_hide
+{
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+@media screen and (max-width: 769px) {
+    .tempInfo {
+      max-width :85%; 
+      margin-right: 10px;
+      margin-left: 10%;
+    }
+    .main_content
+{
+
+  
+    margin-top: 5%;
+    margin-left: 10%;
+}
+    #submitBtn
+    {
+    height: 3rem !important;
+    margin-top: 1.5rem !important;
+    }
+    #date
+{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#day
+{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.midlayer  #temp
+{
+    margin-top: 3%;
+    font-weight: 700;
+    color: skyblue;
+    margin-bottom: 1rem;
+    margin-left: 30%;
+   
+    
+    
+}
+.midlayer h3
+{
+    margin-top: 3%;
+    font-weight: 900;
+    color: skyblue;
+    letter-spacing: 5px;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.midlayer #status
+{
+
+    margin-bottom: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+  }
+  @media screen and (max-width: 306px) {
+    #date
+    {
+        margin-left: 20%;
+        margin-right: 30%;
+    }
+    #day
+    {
+        margin-left: 20%;
+        margin-right: 30%;
+    }
+  }
+ 

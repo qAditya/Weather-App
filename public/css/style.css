@@ -1,0 +1,44 @@
+.main_header_left h1
+{
+    color :violet;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+.main_header_left p
+{
+    color: blueviolet;
+    letter-spacing: 2px;
+
+}
+span
+{
+    color: blanchedalmond;
+}
+a
+{
+    color:white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: whitesmoke;
+}
+.carousel-item img {
+    height: 450px !important;
+    width: 75% !important;
+    margin: auto;
+}
+#welcome
+{
+    margin-top: 20%;
+    color :turquoise
+}
+footer
+{
+    margin-top: 7%;
+    color: darkblue;
+    background-color: darkgoldenrod;
+   
+    padding-bottom: 1%;
+}

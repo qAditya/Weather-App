@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/weather.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+{{>navbar}}
+
+<div class="container-fluid main_header">
+       <div class="row">
+           <div class="col-md-10 col-12 mx-auto container">
+           <div class="main_content row">
+               <form action="" class="temp_form row col-md-10 col-12">
+                   <input type="text" id="cityName" placeholder="Enter your city name" autocomplete="off" class="my-2 col-md-7">
+                   <input type="submit" value="Search" id="submitBtn" class="btn btn-primary col-md-3">
+
+               </form>
+
+           </div>
+           <div class="tempInfo col-md-10 col-12">
+               <div class="top_layer row">
+                   <p id="day" class="col-md-5 col-12"></p>
+                   <p id="date" class="col-md-5 col-12"></p>
+                </div>
+                <hr style="background-color: white;">
+                <div class="main">
+                    <h3 id="city"></h3>
+                    
+                    <div class="midlayer data_hide row">
+                        <h3 class="col-md-5 col-12 mx-2 "><span id="temp"><b></span><sup>o</sup>C</h3></b></h3>
+                        <p class=" col-md-5 col-12 "id="status"></p>
+                    </div>
+                </div>
+            </div>
+           </div>
+            </div>
+            
+            
+    </div>
+</div>
+    
+
+
+
+
+<script src="/js/main.js"></script>
+
+{{>fotter}}
